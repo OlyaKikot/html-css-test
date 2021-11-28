@@ -1,0 +1,96 @@
+.span {
+  height: 20px;
+  width: 12px;
+  /* margin-top: 3px; */
+  background-image: url("./s.svg");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+}
+.spanVector {
+  height: 5px;
+  width: 9px;
+
+  background-image: url("./vector.svg");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+}
+.buttonCurrency {
+  align-items: center;
+  display: flex;
+  width: 38px;
+  height: 29px;
+  border: none;
+  background-color: #fff;
+}
+
+.spanCart {
+  height: 18px;
+  width: 20px;
+
+  background-image: url("./cartBlack.svg");
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-repeat: no-repeat;
+}
+
+.buttonCart {
+  align-items: center;
+  display: flex;
+  width: 38px;
+  height: 29px;
+  border: none;
+  margin-left: 22px;
+  position: relative;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+}
+
+.list {
+  padding: 0;
+  top: 40px;
+  right: 100px;
+  list-style: none;
+
+  box-shadow: 0px 4px 35px rgba(168, 172, 176, 0.19);
+  position: absolute;
+  width: 94px;
+  padding-left: 20px;
+}
+.text {
+  font-family: Raleway;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #1d1f22;
+}
+
+.spanCartQuantity {
+  font-family: Roboto;
+  color: #fff;
+  font-weight: 900;
+  font-size: 14px;
+  line-height: 1.6;
+
+  text-transform: uppercase;
+}
+
+.containerQuantity {
+  position: absolute;
+  top: 20px;
+  right: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #000;
+}
